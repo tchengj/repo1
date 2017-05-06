@@ -18,3 +18,19 @@ end
 
 #=> Something is fishy here
 
+age = 31
+
+case 
+  when age >= 32
+  	puts "you are too old"
+  when 3==2
+  	puts "yeah 3 is equal to 3"
+  else
+  	puts "what is else"
+end
+
+name = 'Matt'
+case name
+  when /mat/i then puts "matt is awesome"
+  when 'Leiss' then puts "Matthias Leiss"
+end
