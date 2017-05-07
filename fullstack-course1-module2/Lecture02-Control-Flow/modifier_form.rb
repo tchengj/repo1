@@ -13,4 +13,11 @@ times_2 *= 2 while times_2 < 100
 puts times_2 # => 128
 
 
+a=2
+b=9
+puts "yes" if a<3 and b>8
+
+plus3=3
+plus3 *=3 while plus3 < 30
+puts plus3
 

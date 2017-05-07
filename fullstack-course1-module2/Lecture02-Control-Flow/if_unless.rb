@@ -18,3 +18,10 @@ end
 
 # => a is not 6
 
+a=7
+
+unless a==7
+	puts "a is not seven eleven"
+else
+	puts "a is 7"
+end
