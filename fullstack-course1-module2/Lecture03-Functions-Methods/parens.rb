@@ -10,3 +10,10 @@ simple() # => no parens
 simple # => no parens
 simple1 # => yes parens
 
+simple1()
+
+def whatismethod
+	puts "method"
+end
+
+whatismethod()

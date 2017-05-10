@@ -11,3 +11,14 @@ puts factorial_with_default # => 120
 puts factorial_with_default(3) # => 6
 
  
+def division (a)
+	a==0? 1 : a/division(a-1)
+end
+
+def division_with_default (a=0)
+  a==0? 1 : a/division_with_default(a-1)
+ end
+
+puts division 60
+puts division_with_default
+puts division_with_default 60
