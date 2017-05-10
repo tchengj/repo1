@@ -6,3 +6,16 @@ if File.exist? 'test.txt'
 
 end
 
+if File.exist? 'donotexist.txt'
+
+	File.foreach( 'donotexist.txt') do |line|
+		p line.split
+	end
+end
+
+if File.exist? 'test.txt'
+
+	File.foreach('test.txt') do |line|
+		p line.split
+	end
+end
